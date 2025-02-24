@@ -1,4 +1,4 @@
-import vector from "@/../public/images/homeTwo/vector-testimonial-top-left.png";
+const vector = "/images/homeTwo/vector-testimonial-top-left.png";
 import { IconQuote } from "@tabler/icons-react";
 import Image from "next/image";
 

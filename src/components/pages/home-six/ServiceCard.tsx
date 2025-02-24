@@ -1,4 +1,4 @@
-import serviceImage from "@/../public/images/home-six/service.png";
+const serviceImage = "/images/home-six/service.png";
 import H4 from "@/components/sharedComponents/H4";
 import TextM from "@/components/sharedComponents/TextM";
 import Image, { StaticImageData } from "next/image";

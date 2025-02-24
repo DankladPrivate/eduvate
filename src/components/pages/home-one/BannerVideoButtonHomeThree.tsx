@@ -1,5 +1,5 @@
 "use client";
-import bannerRoundText from "@/../public/images/homeOne/round-text.png";
+const bannerRoundText = "/images/homeOne/round-text.png";
 import VideoModal from "@/components/sharedComponents/VideoModal";
 import { IconPlayerPlayFilled } from "@tabler/icons-react";
 import Image from "next/image";

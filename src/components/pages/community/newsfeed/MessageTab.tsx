@@ -1,6 +1,6 @@
 "use client";
-import activeMessageUser from "@/../public/images/community/message/active-message-user.png";
-import profile from "@/../public/images/community/message/profile.png";
+const activeMessageUser = "/images/community/message/active-message-user.png";
+const profile = "/images/community/message/profile.png";
 import SearchBarNatural30 from "@/components/sharedComponents/SearchBarNatural30";
 import SearchBarNatural30Send from "@/components/sharedComponents/SearchBarNatural30Send";
 

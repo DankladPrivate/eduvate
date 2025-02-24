@@ -1,5 +1,5 @@
 "use client";
-import authorImage from "@/../public/images/courses/coursesDetailsone/author.png";
+const authorImage = "/images/courses/coursesDetailsone/author.png";
 import ButtonVideo from "@/components/button/ButtonVideoTwo";
 import VideoModal from "@/components/sharedComponents/VideoModal";
 import VectorHomeTwoRightBottom from "@/components/vector/VectorHomeTwoRightBottom";

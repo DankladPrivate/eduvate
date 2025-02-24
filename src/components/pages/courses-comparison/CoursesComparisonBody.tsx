@@ -1,5 +1,5 @@
-import image1 from "@/../public/images/courses-comparison/Image-1.png";
-import image2 from "@/../public/images/courses-comparison/Image.png";
+const image1 = "/images/courses-comparison/Image-1.png";
+const image2 = "/images/courses-comparison/Image.png";
 import ButtonPrimaryFullWidth from "@/components/button/ButtonPrimaryFullWidth";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";
 import DropdownFullWidth from "@/components/dropdown/DropdownFullWidth";

@@ -1,4 +1,4 @@
-import vector from "@/../public/images/courses/coursesDetailsTwo/bannerVector.png";
+const vector = "/images/courses/coursesDetailsTwo/bannerVector.png";
 import Image from "next/image";
 const VectorCoursesDetailsTwo = ({
   children,

@@ -1,5 +1,5 @@
 "use client";
-import vector from "@/../public/images/home-three/vector-banner.png";
+const vector = "/images/home-three/vector-banner.png";
 import Image from "next/image";
 import BannerVideoButtonHomeThree from "../pages/home-one/BannerVideoButtonHomeThree";
 

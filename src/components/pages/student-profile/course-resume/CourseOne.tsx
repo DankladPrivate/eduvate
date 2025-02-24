@@ -1,5 +1,5 @@
-import courseTwo from "@/../public/images/student-profile/course-two.png";
-import course from "@/../public/images/student-profile/course.png";
+const courseTwo = "/images/student-profile/course-two.png";
+const course = "/images/student-profile/course.png";
 import ButtonPrimary from "@/components/button/ButtonPrimary";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";
 import H3 from "@/components/sharedComponents/H3";

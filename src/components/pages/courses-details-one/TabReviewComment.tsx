@@ -1,5 +1,5 @@
 "use client";
-import image from "@/../public/images/courses/coursesDetailsone/review-1.png";
+const image = "/images/courses/coursesDetailsone/review-1.png";
 import BorderHorizontal from "@/components/customBorder/BorderHorizontal";
 import {
   IconMessage,

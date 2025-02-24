@@ -1,5 +1,5 @@
-import logoFooter from "@/../public/images/home-three/logo-footer.png";
-import logo from "@/../public/images/homeOne/Logo.png";
+const logoFooter = "/images/home-three/logo-footer.png";
+const logo = "/images/homeOne/Logo.png";
 import FadeTopToDown from "@/motionEffect/FadeTopToDown";
 import Image from "next/image";
 import Link from "next/link";

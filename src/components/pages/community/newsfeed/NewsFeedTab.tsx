@@ -1,13 +1,13 @@
 "use client";
-import commentUser1 from "@/../public/images/community/newsfeed/48-1.png";
-import postUser from "@/../public/images/community/newsfeed/48-3.png";
-import commentUser2 from "@/../public/images/community/newsfeed/48-4.png";
-import commentUser5 from "@/../public/images/community/newsfeed/48-5.png";
-import commentUser6 from "@/../public/images/community/newsfeed/48-6.png";
-import postBigImage from "@/../public/images/community/newsfeed/news-big-1.png";
-import postBigImage3 from "@/../public/images/community/newsfeed/news-big-3.png";
-import postSmall1 from "@/../public/images/community/newsfeed/news-small-2.png";
-import postSmall2 from "@/../public/images/community/newsfeed/news-small-5.png";
+const commentUser1 = "/images/community/newsfeed/48-1.png";
+const postUser = "/images/community/newsfeed/48-3.png";
+const commentUser2 = "/images/community/newsfeed/48-4.png";
+const commentUser5 = "/images/community/newsfeed/48-5.png";
+const commentUser6 = "/images/community/newsfeed/48-6.png";
+const postBigImage = "/images/community/newsfeed/news-big-1.png";
+const postBigImage3 = "/images/community/newsfeed/news-big-3.png";
+const postSmall1 = "/images/community/newsfeed/news-small-2.png";
+const postSmall2 = "/images/community/newsfeed/news-small-5.png";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";
 import AddComment from "@/components/sharedComponents/AddComment";
 

@@ -1,4 +1,4 @@
-import vector from "@/../public/images/about/vector-bottom-left.png";
+const vector = "/images/about/vector-bottom-left.png";
 import { IconArrowUpRight } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";

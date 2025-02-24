@@ -1,5 +1,5 @@
 "use client";
-import image from "@/../public/images/instructor/instructor-profile.png";
+const image = "/images/instructor/instructor-profile.png";
 import ButtonCoursesDetailsOne from "@/components/button/ButtonCoursesDetailsOne";
 import { IconCirclePlus } from "@tabler/icons-react";
 import Image from "next/image";

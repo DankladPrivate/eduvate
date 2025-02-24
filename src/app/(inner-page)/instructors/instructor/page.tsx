@@ -1,6 +1,6 @@
 import NewsLetter from "@/components/pages/about-us/NewsLetter";
 
-import bannerImage from "@/../public/images/instructor/all-course-banner.png";
+const bannerImage = "/images/instructor/all-course-banner.png";
 import AllCourseBody from "@/components/pages/all-courses/AllCourseBody";
 import Banner1600WithBreadCrumbsInstructor from "@/components/sharedComponents/Banner1600WithBreadCrumbsInstructor";
 import { Metadata } from "next";

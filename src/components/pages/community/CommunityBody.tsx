@@ -1,5 +1,5 @@
 "use client";
-import profileImage from "@/../public/images/community/newsfeed/profile.png";
+const profileImage = "/images/community/newsfeed/profile.png";
 import ButtonCoursesDetailsOne from "@/components/button/ButtonCoursesDetailsOne";
 import ButtonPrimary from "@/components/button/ButtonPrimary";
 import Image from "next/image";

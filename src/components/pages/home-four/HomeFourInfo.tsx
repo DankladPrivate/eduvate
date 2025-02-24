@@ -1,5 +1,5 @@
-import infoLeft from "@/../public/images/home-four/info-left.png";
-import infoRight from "@/../public/images/home-four/info-right.png";
+const infoLeft = "/images/home-four/info-left.png";
+const infoRight = "/images/home-four/info-right.png";
 import ButtonBlackSmall from "@/components/button/ButtonBlackSmall";
 import H3 from "@/components/sharedComponents/H3";
 import FadeLeft from "@/motionEffect/FadeLeft";

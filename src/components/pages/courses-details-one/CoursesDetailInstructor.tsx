@@ -1,4 +1,4 @@
-import instructor from "@/../public/images/courses/coursesDetailsone/instructor.png";
+const instructor = "/images/courses/coursesDetailsone/instructor.png";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";
 import SocialIconDarkBorder from "@/components/icons/SocialIconDarkBorder";
 import {

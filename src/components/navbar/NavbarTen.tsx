@@ -1,5 +1,5 @@
 "use client";
-import logo from "@/../public/images/homeOne/Logo.png";
+const logo = "/images/homeOne/Logo.png";
 import {
   IconArrowsExchange,
   IconChevronDown,

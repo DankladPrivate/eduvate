@@ -1,5 +1,5 @@
-import instructorImage from "@/../public/images/home-five/instructor.png";
-import vector from "@/../public/images/home-five/vector-instructor.png";
+const instructorImage = "/images/home-five/instructor.png";
+const vector = "/images/home-five/vector-instructor.png";
 import ReactCounterUp from "@/components/sharedComponents/Counter";
 import D4 from "@/components/sharedComponents/D4";
 import TextL from "@/components/sharedComponents/TextL";

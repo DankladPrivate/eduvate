@@ -1,5 +1,5 @@
-import platformVector from "@/../public/images/home-four/platform-vector.png";
-import platform from "@/../public/images/home-four/platform.png";
+const platformVector = "/images/home-four/platform-vector.png";
+const platform = "/images/home-four/platform.png";
 import ButtonPrimary from "@/components/button/ButtonPrimary";
 import D4 from "@/components/sharedComponents/D4";
 import H5 from "@/components/sharedComponents/H5";

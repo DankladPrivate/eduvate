@@ -1,4 +1,4 @@
-import bannerImage from "@/../public/images/courses/coursesDetailsone/banner.png";
+const bannerImage = "/images/courses/coursesDetailsone/banner.png";
 import BreadCrumbs from "@/components/sharedComponents/BreadCrumbs";
 import VectorCoursesDetailOneBanner from "@/components/vector/VectorCoursesDetailOneBanner";
 import Image from "next/image";

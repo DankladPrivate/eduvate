@@ -1,5 +1,5 @@
-import detailsImage1 from "@/../public/images/event-details/event-detail-1.png";
-import detailsImage2 from "@/../public/images/event-details/event-detail-2.png";
+const detailsImage1 = "/images/event-details/event-detail-1.png";
+const detailsImage2 = "/images/event-details/event-detail-2.png";
 import BorderHorizontal from "@/components/customBorder/BorderHorizontal";
 import Li from "@/components/sharedComponents/Li";
 import Ul from "@/components/sharedComponents/Ul";

@@ -1,5 +1,5 @@
 "use client";
-import detailsImage3 from "@/../public/images/event-details/event-detail-3.png";
+const detailsImage3 = "/images/event-details/event-detail-3.png";
 import ButtonVideo from "@/components/button/ButtonVideoTwo";
 import VideoModal from "@/components/sharedComponents/VideoModal";
 import Image from "next/image";

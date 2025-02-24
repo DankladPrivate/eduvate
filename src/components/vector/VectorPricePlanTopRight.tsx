@@ -1,4 +1,4 @@
-import vector from "@/../public/images/homeTwo/vector-pricePlan-top-left.png";
+const vector = "/images/homeTwo/vector-pricePlan-top-left.png";
 import Image from "next/image";
 
 const VectorPricePlanTopRight = ({ planName }: { planName: string }) => {

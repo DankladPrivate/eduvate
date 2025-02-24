@@ -1,5 +1,5 @@
 "use client";
-import image1 from "@/../public/images/products/product-1.png";
+const image1 = "/images/products/product-1.png";
 import ButtonIconBgOne from "@/components/button/ButtonIconBgOne";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";
 import TextL from "@/components/sharedComponents/TextL";

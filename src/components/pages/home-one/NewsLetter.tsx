@@ -1,4 +1,4 @@
-import image from "@/../public/images/homeOne/newsletter.png";
+const image = "/images/homeOne/newsletter.png";
 import ButtonBlackRounded from "@/components/button/ButtonBlackRounded";
 import Fade from "@/motionEffect/Fade";
 import FadeLeft from "@/motionEffect/FadeLeft";

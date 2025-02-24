@@ -1,9 +1,9 @@
 "use client";
-import story1 from "@/../public/images/community/newsfeed/Story-1.png";
-import story2 from "@/../public/images/community/newsfeed/Story-2.png";
-import story3 from "@/../public/images/community/newsfeed/Story-3.png";
-import story4 from "@/../public/images/community/newsfeed/Story-4.png";
-import icon from "@/../public/images/community/newsfeed/replay-1.png";
+const story1 = "/images/community/newsfeed/Story-1.png";
+const story2 = "/images/community/newsfeed/Story-2.png";
+const story3 = "/images/community/newsfeed/Story-3.png";
+const story4 = "/images/community/newsfeed/Story-4.png";
+const icon = "/images/community/newsfeed/replay-1.png";
 import { IconPlus } from "@tabler/icons-react";
 import Image from "next/image";
 import { ChangeEvent, MouseEvent, useRef, useState } from "react";

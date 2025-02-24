@@ -1,5 +1,5 @@
 "use client";
-import sidebarImage from "@/../public/images/student-profile/illustration.png";
+const sidebarImage = "/images/student-profile/illustration.png";
 import ButtonPrimaryFullWidthSmall from "@/components/button/ButtonPrimaryFullWidthSmall";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";
 import TextM from "@/components/sharedComponents/TextM";

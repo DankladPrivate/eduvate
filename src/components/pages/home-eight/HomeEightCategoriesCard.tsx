@@ -1,4 +1,4 @@
-import vector from "@/../public/images/home-eight/vector.png";
+const vector = "/images/home-eight/vector.png";
 import ButtonUnderLine from "@/components/button/ButtonUnderLine";
 import TextXL from "@/components/sharedComponents/TextXL";
 import Image, { StaticImageData } from "next/image";

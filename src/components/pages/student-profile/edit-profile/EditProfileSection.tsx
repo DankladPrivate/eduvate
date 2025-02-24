@@ -1,5 +1,5 @@
 "use client";
-import profileImage from "@/../public/images/student-profile/prifile-image-120.png";
+const profileImage = "/images/student-profile/prifile-image-120.png";
 import CheckBoxSecondary from "@/components/button/CheckBoxSecondary";
 import RadioButton from "@/components/button/RadioButton";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";

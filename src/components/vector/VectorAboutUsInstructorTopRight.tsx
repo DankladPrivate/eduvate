@@ -1,4 +1,4 @@
-import vector from "@/../public/images/about/vector-about-instructor-top-right.png";
+const vector = "/images/about/vector-about-instructor-top-right.png";
 import {
   IconBrandFacebook,
   IconBrandInstagram,

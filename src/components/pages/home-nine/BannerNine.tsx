@@ -1,5 +1,5 @@
-import roundedText from "@/../public/images/home-four/rounded-text.png";
-import banner from "@/../public/images/home-nine/banner.png";
+const roundedText = "/images/home-four/rounded-text.png";
+const banner = "/images/home-nine/banner.png";
 import ButtonOutline from "@/components/button/ButtonOutline";
 import ButtonPrimary from "@/components/button/ButtonPrimary";
 import D3 from "@/components/sharedComponents/D3";

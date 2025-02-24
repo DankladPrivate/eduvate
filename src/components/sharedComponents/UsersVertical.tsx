@@ -1,8 +1,8 @@
-import reviewImage1 from "@/../public/images/homeTwo/review-icon-1.png";
-import reviewImage2 from "@/../public/images/homeTwo/review-icon-2.png";
-import reviewImage3 from "@/../public/images/homeTwo/review-icon-3.png";
-import reviewImage4 from "@/../public/images/homeTwo/review-icon-4.png";
-import reviewImage5 from "@/../public/images/homeTwo/review-icon-5.png";
+const reviewImage1 = "/images/homeTwo/review-icon-1.png";
+const reviewImage2 = "/images/homeTwo/review-icon-2.png";
+const reviewImage3 = "/images/homeTwo/review-icon-3.png";
+const reviewImage4 = "/images/homeTwo/review-icon-4.png";
+const reviewImage5 = "/images/homeTwo/review-icon-5.png";
 import Image from "next/image";
 
 const UsersVertical = ({ data }: { data?: React.ReactNode }) => {

@@ -1,5 +1,5 @@
-import image1 from "@/../public/images/pricing-plan/Illustration-1.png";
-import image2 from "@/../public/images/pricing-plan/Illustration-2.png";
+const image1 = "/images/pricing-plan/Illustration-1.png";
+const image2 = "/images/pricing-plan/Illustration-2.png";
 import ButtonBlackSmall from "@/components/button/ButtonBlackSmall";
 import FadeLeft from "@/motionEffect/FadeLeft";
 import FadeRight from "@/motionEffect/FadeRight";

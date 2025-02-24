@@ -1,5 +1,5 @@
 "use client";
-import eventImage from "@/../public/images/home-six/event-banner.png";
+const eventImage = "/images/home-six/event-banner.png";
 import VideoModal from "@/components/sharedComponents/VideoModal";
 import { IconPlayerPlayFilled } from "@tabler/icons-react";
 import Image from "next/image";

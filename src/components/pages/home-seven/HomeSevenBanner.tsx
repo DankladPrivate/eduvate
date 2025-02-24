@@ -1,9 +1,9 @@
 "use client";
-import roundedText from "@/../public/images/home-four/rounded-text.png";
-import bannerFrame from "@/../public/images/home-seven/banner-fram.png";
-import bannerImage from "@/../public/images/home-seven/banner.png";
-import star1 from "@/../public/images/home-seven/star-1.png";
-import star2 from "@/../public/images/home-seven/star-2.png";
+const roundedText = "/images/home-four/rounded-text.png";
+const bannerFrame = "/images/home-seven/banner-fram.png";
+const bannerImage = "/images/home-seven/banner.png";
+const star1 = "/images/home-seven/star-1.png";
+const star2 = "/images/home-seven/star-2.png";
 import ButtonOutline from "@/components/button/ButtonOutline";
 import ButtonPrimary from "@/components/button/ButtonPrimary";
 import D2 from "@/components/sharedComponents/D2";

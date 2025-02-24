@@ -1,4 +1,4 @@
-import image from "@/../public/images/error.png";
+const image = "/images/error.png";
 import ButtonPrimary from "@/components/button/ButtonPrimary";
 import Image from "next/image";
 const NotFoundPage = () => {

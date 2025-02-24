@@ -1,5 +1,5 @@
-import bannerImage from "@/../public/images/instructor-profile/banner-image.png";
-import profileImage from "@/../public/images/instructor-profile/instructor-profile.png";
+const bannerImage = "/images/instructor-profile/banner-image.png";
+const profileImage = "/images/instructor-profile/instructor-profile.png";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";
 import BorderVerticalN40 from "@/components/customBorder/BorderVerticalN40";
 import H3 from "@/components/sharedComponents/H3";

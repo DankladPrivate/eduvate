@@ -1,4 +1,4 @@
-import icon from "@/../public/images/community/newsfeed/replay-1.png";
+const icon = "/images/community/newsfeed/replay-1.png";
 import { IconSend } from "@tabler/icons-react";
 import Image from "next/image";
 

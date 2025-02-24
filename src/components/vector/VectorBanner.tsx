@@ -1,4 +1,4 @@
-import vector1 from "@/../public/images/homeOne/vector-1.png";
+const vector1 = "/images/homeOne/vector-1.png";
 import Image from "next/image";
 const VectorBanner = ({ value }: { value: string }) => {
   return (

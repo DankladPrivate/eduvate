@@ -1,4 +1,4 @@
-import bookImage from "@/../public/images/homeOne/book-elements.png";
+const bookImage = "/images/homeOne/book-elements.png";
 import CardWhyChoose from "@/components/Card/CardWhyChoose";
 import ButtonUnderLine from "@/components/button/ButtonUnderLine";
 import ElementLight from "@/components/sharedComponents/ElementLight";

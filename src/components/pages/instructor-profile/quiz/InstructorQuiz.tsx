@@ -1,5 +1,5 @@
 "use client";
-import course from "@/../public/images/student-profile/course.png";
+const course = "/images/student-profile/course.png";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";
 import H3 from "@/components/sharedComponents/H3";
 import TextM from "@/components/sharedComponents/TextM";

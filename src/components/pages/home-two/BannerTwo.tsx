@@ -1,5 +1,5 @@
-import imageGirl from "@/../public/images/homeTwo/homeTwo-banner-girl.png";
-import imageMan from "@/../public/images/homeTwo/homeTwo-banner-man.png";
+const imageGirl = "/images/homeTwo/homeTwo-banner-girl.png";
+const imageMan = "/images/homeTwo/homeTwo-banner-man.png";
 import ButtonUnderLine from "@/components/button/ButtonUnderLine";
 import SearchBarFullWidthBannerTwo from "@/components/navbar/searchbar/SearchBarFullWidthBannerTwo";
 import ReactCounterUp from "@/components/sharedComponents/Counter";

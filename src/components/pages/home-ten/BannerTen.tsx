@@ -1,5 +1,5 @@
-import banner from "@/../public/images/home-ten/banner.png";
-import bannerSmallImage from "@/../public/images/home-ten/video-banner.png";
+const banner = "/images/home-ten/banner.png";
+const bannerSmallImage = "/images/home-ten/video-banner.png";
 import D2 from "@/components/sharedComponents/D2";
 import TextL from "@/components/sharedComponents/TextL";
 

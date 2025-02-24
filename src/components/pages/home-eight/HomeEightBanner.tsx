@@ -1,5 +1,5 @@
-import bannerImage from "@/../public/images/home-eight/banner-main-image.png";
-import roundedText from "@/../public/images/home-four/rounded-text.png";
+const bannerImage = "/images/home-eight/banner-main-image.png";
+const roundedText = "/images/home-four/rounded-text.png";
 import H4 from "@/components/sharedComponents/H4";
 import TextS from "@/components/sharedComponents/TextS";
 import TextXL from "@/components/sharedComponents/TextXL";

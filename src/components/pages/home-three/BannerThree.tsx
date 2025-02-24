@@ -1,6 +1,6 @@
 "use client";
-import bannerImage from "@/../public/images/home-three/home-three-banner.png";
-import element from "@/../public/images/homeOne/element-why-choose-us.png";
+const bannerImage = "/images/home-three/home-three-banner.png";
+const element = "/images/homeOne/element-why-choose-us.png";
 import ButtonUnderLine from "@/components/button/ButtonUnderLine";
 import BorderHorizontalN40 from "@/components/customBorder/BorderHorizontalN40";
 import BorderVerticalN700 from "@/components/customBorder/BorderVerticalN700";

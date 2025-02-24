@@ -1,4 +1,4 @@
-import vector from "@/../public/images/homeOne/vector-top-right.png";
+const vector = "/images/homeOne/vector-top-right.png";
 import { IconCheck } from "@tabler/icons-react";
 import Image from "next/image";
 

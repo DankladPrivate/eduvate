@@ -1,4 +1,4 @@
-import vector from "@/../public/images/homeTwo/vector-event-bottom-right.png";
+const vector = "/images/homeTwo/vector-event-bottom-right.png";
 import Image from "next/image";
 
 const VectorHomeTwoRightBottom = () => {

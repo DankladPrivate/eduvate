@@ -1,4 +1,4 @@
-import bannerImage from "@/../public/images/blog/blog-details-banner.png";
+const bannerImage = "/images/blog/blog-details-banner.png";
 import NewsLetter from "@/components/pages/about-us/NewsLetter";
 import BlogDetailsContent from "@/components/pages/blog-details/BlogDetailsContent";
 import Banner1600WithBreadCrumbs from "@/components/sharedComponents/Banner1600WithBreadCrumbs";

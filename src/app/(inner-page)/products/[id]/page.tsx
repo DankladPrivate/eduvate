@@ -1,5 +1,5 @@
 "use client";
-import bannerImage from "@/../public/images/products/product-details-banner.png";
+const bannerImage = "/images/products/product-details-banner.png";
 import NewsLetter from "@/components/pages/about-us/NewsLetter";
 import ProductDetailsContent from "@/components/pages/product-details/ProductDetailsContent";
 import Banner1600WithBreadCrumbs from "@/components/sharedComponents/Banner1600WithBreadCrumbs";

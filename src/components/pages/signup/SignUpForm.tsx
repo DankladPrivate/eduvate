@@ -1,5 +1,5 @@
 "use client";
-import image from "@/../public/images/signup.png";
+const image = "/images/signup.png";
 import { IconEye, IconEyeOff } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";

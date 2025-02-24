@@ -1,5 +1,5 @@
-import bannerImage from "@/../public/images/student-profile/banner.png";
-import profileImage from "@/../public/images/student-profile/prifile-image.png";
+const bannerImage = "/images/student-profile/banner.png";
+const profileImage = "/images/student-profile/prifile-image.png";
 import BorderVerticalN40 from "@/components/customBorder/BorderVerticalN40";
 import H3 from "@/components/sharedComponents/H3";
 import H4 from "@/components/sharedComponents/H4";

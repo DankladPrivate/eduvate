@@ -1,4 +1,4 @@
-import logo from "@/../public/images/home-four/footer-icon.png";
+const logo = "/images/home-four/footer-icon.png";
 import StaggerEffectUl from "@/motionEffect/StaggerEffectUl";
 import Image from "next/image";
 import Link from "next/link";

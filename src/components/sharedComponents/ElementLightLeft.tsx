@@ -1,4 +1,4 @@
-import element from "@/../public/images/homeOne/element-why-choose-us.png";
+const element = "/images/homeOne/element-why-choose-us.png";
 import Image from "next/image";
 const ElementLightLeft = () => {
   return (

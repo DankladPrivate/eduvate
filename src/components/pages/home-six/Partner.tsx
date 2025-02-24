@@ -1,9 +1,9 @@
 "use client";
-import brandImage1 from "@/../public/images/home-three/brand-1.png";
-import brandImage2 from "@/../public/images/home-three/brand-2.png";
-import brandImage3 from "@/../public/images/home-three/brand-3.png";
-import brandImage4 from "@/../public/images/home-three/brand-4.png";
-import brandImage5 from "@/../public/images/home-three/brand-5.png";
+const brandImage1 = "/images/home-three/brand-1.png";
+const brandImage2 = "/images/home-three/brand-2.png";
+const brandImage3 = "/images/home-three/brand-3.png";
+const brandImage4 = "/images/home-three/brand-4.png";
+const brandImage5 = "/images/home-three/brand-5.png";
 import H5 from "@/components/sharedComponents/H5";
 import Image from "next/image";
 import { Autoplay } from "swiper/modules";

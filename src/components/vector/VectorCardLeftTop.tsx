@@ -1,4 +1,4 @@
-import vector from "@/../public/images/homeOne/vector-card-left-top.png";
+const vector = "/images/homeOne/vector-card-left-top.png";
 import Image from "next/image";
 
 const VectorCardLeftTop = () => {

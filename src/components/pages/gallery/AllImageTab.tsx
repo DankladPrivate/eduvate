@@ -1,12 +1,12 @@
-import image1 from "@/../public/images/gallery/gallery-1.png";
-import image2 from "@/../public/images/gallery/gallery-2.png";
-import image3 from "@/../public/images/gallery/gallery-3.png";
-import image4 from "@/../public/images/gallery/gallery-4.png";
-import image5 from "@/../public/images/gallery/gallery-5.png";
-import image6 from "@/../public/images/gallery/gallery-6.png";
-import image7 from "@/../public/images/gallery/gallery-7.png";
-import image8 from "@/../public/images/gallery/gallery-8.png";
-import image9 from "@/../public/images/gallery/gallery-9.png";
+const image1 = "/images/gallery/gallery-1.png";
+const image2 = "/images/gallery/gallery-2.png";
+const image3 = "/images/gallery/gallery-3.png";
+const image4 = "/images/gallery/gallery-4.png";
+const image5 = "/images/gallery/gallery-5.png";
+const image6 = "/images/gallery/gallery-6.png";
+const image7 = "/images/gallery/gallery-7.png";
+const image8 = "/images/gallery/gallery-8.png";
+const image9 = "/images/gallery/gallery-9.png";
 import Image from "next/image";
 const AllImageTab = () => {
   return (

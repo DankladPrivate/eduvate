@@ -1,4 +1,4 @@
-// import image from "@/../public/images/faq/faq-banner.png";
+// const image = "/images/faq/faq-banner.png";
 import { IconArrowUpRight } from "@tabler/icons-react";
 import Link from "next/link";
 

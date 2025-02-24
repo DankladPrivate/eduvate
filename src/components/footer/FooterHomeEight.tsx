@@ -1,5 +1,5 @@
-import post1 from "@/../public/images/home-five/footer-1.png";
-import post4 from "@/../public/images/home-five/footer-4.png";
+const post1 = "/images/home-five/footer-1.png";
+const post4 = "/images/home-five/footer-4.png";
 import FadeDownToTop from "@/motionEffect/FadeDownToTop";
 import FadeTopToDown from "@/motionEffect/FadeTopToDown";
 import StaggerEffectUl from "@/motionEffect/StaggerEffectUl";

@@ -1,5 +1,5 @@
 "use client";
-import logo from "@/../public/images/homeTwo/logo.png";
+const logo = "/images/homeTwo/logo.png";
 import {
   IconArrowsExchange,
   IconShoppingCart,

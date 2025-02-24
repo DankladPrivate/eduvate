@@ -1,4 +1,4 @@
-import imageIllustration from "@/../public/images/instructor/primary-banner.png";
+const imageIllustration = "/images/instructor/primary-banner.png";
 import Fade from "@/motionEffect/Fade";
 import Image from "next/image";
 import StartTechPrimaryBannerRight from "./StartTechPrimaryBannerRight";

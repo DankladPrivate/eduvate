@@ -1,4 +1,4 @@
-import vector from "@/../public/images/homeOne/vector-ratting-top-left.png";
+const vector = "/images/homeOne/vector-ratting-top-left.png";
 import { IconStarFilled, IconStarHalfFilled } from "@tabler/icons-react";
 import Image from "next/image";
 

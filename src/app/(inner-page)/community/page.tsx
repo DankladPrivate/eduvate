@@ -1,4 +1,4 @@
-import bannerImage from "@/../public/images/community/newsfeed/banner.png";
+const bannerImage = "/images/community/newsfeed/banner.png";
 import NewsLetter from "@/components/pages/about-us/NewsLetter";
 import CommunityBody from "@/components/pages/community/CommunityBody";
 import Banner1600WithBreadCrumbs from "@/components/sharedComponents/Banner1600WithBreadCrumbs";

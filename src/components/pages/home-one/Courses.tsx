@@ -1,5 +1,5 @@
 "use client";
-import rocket from "@/../public/images/homeOne/rocket.png";
+const rocket = "/images/homeOne/rocket.png";
 import CoursesCard from "@/components/Card/CoursesCard";
 import ButtonTab from "@/components/button/ButtonTab";
 import SectionHeading from "@/components/sharedComponents/SectionHeading";

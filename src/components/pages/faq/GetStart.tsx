@@ -1,5 +1,5 @@
-import getStartImage from "@/../public/images/faq/get-started-image.png";
-import sun from "@/../public/images/faq/sun.png";
+const getStartImage = "/images/faq/get-started-image.png";
+const sun = "/images/faq/sun.png";
 import DropdownFullWidth from "@/components/dropdown/DropdownFullWidth";
 import ElementLight from "@/components/sharedComponents/ElementLight";
 import { IconBook, IconMail, IconUserCircle } from "@tabler/icons-react";

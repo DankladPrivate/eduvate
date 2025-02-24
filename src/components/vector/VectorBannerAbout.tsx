@@ -1,4 +1,4 @@
-import vector1 from "@/../public/images/about/vector-about-banner-top-left.png";
+const vector1 = "/images/about/vector-about-banner-top-left.png";
 import Image from "next/image";
 const VectorBanner = ({ value }: { value: string }) => {
   return (

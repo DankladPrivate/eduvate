@@ -1,4 +1,4 @@
-import image from "@/../public/images/privacy-policy.png";
+const image = "/images/privacy-policy.png";
 import NewsLetter from "@/components/pages/about-us/NewsLetter";
 import PrivacyPolicyContent from "@/components/pages/privacy-policy/PrivacyPolicyContent";
 import Banner1600WithBreadCrumbs from "@/components/sharedComponents/Banner1600WithBreadCrumbs";

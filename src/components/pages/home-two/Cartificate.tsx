@@ -1,4 +1,4 @@
-import certificate from "@/../public/images/homeTwo/certificate.png";
+const certificate = "/images/homeTwo/certificate.png";
 import FadeLeft from "@/motionEffect/FadeLeft";
 import FadeRight from "@/motionEffect/FadeRight";
 import StaggerEffectTwo from "@/motionEffect/StaggerEffectTwo";
