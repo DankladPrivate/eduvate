@@ -23,7 +23,8 @@ const QuizBody = () => {
     const answerOption = answerNo.split("");
     quizData.forEach((answer, index) => {
       if (index == parseInt(answerOption[1])) {
-        if (answer.answer == answerOption[0]) {
+        // if (answer.answer == answerOption[0]) { //The below line was previously this line
+        if (answer.answers.some((ans) => ans.answerNo === answerOption[0])) {
           setAllCorrectAnswer((prevAnswers) => [
             ...prevAnswers.filter((a) => a.question !== answer.question),
             { question: answer.question, correct: true },
