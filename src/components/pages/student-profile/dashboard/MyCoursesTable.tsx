@@ -7,7 +7,7 @@ const MyCoursesTable = ({
 }: {
   tableData: {
     id: string;
-    image: StaticImageData;
+    image: StaticImageData | string;
     title: string;
     startDate: string;
     progress: number;

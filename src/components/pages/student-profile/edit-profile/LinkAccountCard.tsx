@@ -5,7 +5,7 @@ import ButtonLinkAccountOutline from "./ButtonLinkAccountOutline";
 import ButtonLinkAccountPrimary from "./ButtonLinkAccountPrimary";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   accountName: string;
   message: string;
 };

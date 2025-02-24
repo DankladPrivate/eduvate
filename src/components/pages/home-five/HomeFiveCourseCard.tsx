@@ -14,8 +14,8 @@ import Link from "next/link";
 
 type Props = {
   id: string;
-  cardImage: StaticImageData;
-  instructorImage: StaticImageData;
+  cardImage: StaticImageData | string;
+  instructorImage: StaticImageData | string;
   courseType: string;
   courseTitle: string;
   totalLessons: number;

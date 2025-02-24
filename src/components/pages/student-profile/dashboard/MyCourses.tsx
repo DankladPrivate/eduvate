@@ -10,7 +10,7 @@ import MyCoursesTable from "./MyCoursesTable";
 
 type Props = {
   id: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   startDate: string;
   progress: number;

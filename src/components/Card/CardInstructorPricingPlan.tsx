@@ -7,7 +7,7 @@ import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   name: string;
   title: string;
 };

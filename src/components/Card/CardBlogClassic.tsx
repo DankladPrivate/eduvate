@@ -5,7 +5,7 @@ import H3 from "../sharedComponents/H3";
 import TextM from "../sharedComponents/TextM";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   text: string;
   message: string;

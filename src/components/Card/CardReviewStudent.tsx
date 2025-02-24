@@ -3,7 +3,7 @@ import StarsRatting from "../sharedComponents/StarsRatting";
 
 type Props = {
   cardText: string;
-  customerImage: StaticImageData;
+  customerImage: StaticImageData | string;
   customerName: string;
   customerTitle: string;
 };

@@ -5,7 +5,7 @@ import ButtonVideo from "../button/ButtonVideoTwo";
 import Users from "../sharedComponents/Users";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };

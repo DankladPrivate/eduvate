@@ -12,7 +12,7 @@ import { useDispatch } from "react-redux";
 
 type Props = {
   id: number;
-  image: StaticImageData;
+  image: StaticImageData | string;
   productName: string;
   quantity: number;
   productRating: number;

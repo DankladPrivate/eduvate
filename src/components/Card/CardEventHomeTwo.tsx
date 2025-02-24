@@ -10,7 +10,7 @@ import BorderHorizontal from "../customBorder/BorderHorizontal";
 import VectorHomeTwoRightBottomEvent from "../vector/VectorHomeTwoRightBottomEvent";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   eventTitle: string;
   eventTime: string;
   eventDate: string;

@@ -5,7 +5,7 @@ import Image, { StaticImageData } from "next/image";
 import TableModal from "./TableModal";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   startDate: string;
   progress: number;

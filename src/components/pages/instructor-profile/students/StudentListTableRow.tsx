@@ -3,7 +3,7 @@ import { IconForbid2, IconMail } from "@tabler/icons-react";
 import Image, { StaticImageData } from "next/image";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   studentName: string;
   location: string;
   courses: string;

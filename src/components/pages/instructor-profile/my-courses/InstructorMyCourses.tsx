@@ -11,7 +11,7 @@ import { instructorMyCoursesData } from "../../../../../public/data/instructorMy
 import InstructorMyCoursesTable from "./InstructorMyCoursesTable";
 type Props = {
   id: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   courseInstructor: string;
   enrolled: number;

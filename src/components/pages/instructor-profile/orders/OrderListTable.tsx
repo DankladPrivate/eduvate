@@ -4,7 +4,7 @@ import OrderListTableRow from "./OrderListTableRow";
 
 type Props = {
   id: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
   coursesName: string;
   orderId: string;
   orderDate: string;

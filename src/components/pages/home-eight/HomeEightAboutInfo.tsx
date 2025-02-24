@@ -3,7 +3,7 @@ import TextXL from "@/components/sharedComponents/TextXL";
 import Image, { StaticImageData } from "next/image";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   text: string;
 };

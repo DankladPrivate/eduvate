@@ -52,6 +52,7 @@ const NavbarOne = () => {
     }
   };
   const pathName = usePathname();
+  const logo = "/images/homeOne/Logo.png"
 
   return (
     <>
@@ -62,7 +63,7 @@ const NavbarOne = () => {
             <div className="flex grow items-center justify-between gap-4 xxl:gap-60px">
               <Link href="/" className="shrink-0">
                 <Image
-                  src={"/images/homeOne/Logo.png"}
+                  src={logo}
                   width={184}
                   height={38}
                   alt="Home page one logo"

@@ -4,7 +4,7 @@ import InstructorMyCoursesTableRow from "./InstructorMyCoursesTableRow";
 
 type Props = {
   id: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   courseInstructor: string;
   enrolled: number;

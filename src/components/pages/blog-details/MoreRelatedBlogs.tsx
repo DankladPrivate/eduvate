@@ -3,7 +3,7 @@ import TextM from "@/components/sharedComponents/TextM";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   date: string;
   link: string;

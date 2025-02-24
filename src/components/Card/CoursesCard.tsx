@@ -11,7 +11,7 @@ import BorderHorizontal from "../customBorder/BorderHorizontal";
 import VectorCardRightBottom from "../vector/VectorCardRightBottom";
 
 type Props = {
-  cardImage: StaticImageData;
+  cardImage: StaticImageData | string;
   courseType: string;
   courseTitle: string;
   totalLessons: number;

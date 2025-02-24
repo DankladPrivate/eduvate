@@ -4,7 +4,7 @@ import TextXL from "@/components/sharedComponents/TextXL";
 import Image, { StaticImageData } from "next/image";
 type Props = {
   id: any;
-  icon: StaticImageData;
+  icon: StaticImageData | string;
   title: string;
   text: string;
   link: string;

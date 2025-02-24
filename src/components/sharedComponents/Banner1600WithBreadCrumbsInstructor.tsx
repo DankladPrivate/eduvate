@@ -6,7 +6,7 @@ type Props = {
   page?: string;
   subPage?: string;
   pageLink?: string;
-  bannerImage: StaticImageData;
+  bannerImage: StaticImageData | string;
 };
 
 const Banner1600WithBreadCrumbsInstructor = ({

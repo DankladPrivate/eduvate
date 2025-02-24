@@ -7,7 +7,7 @@ import TextM from "../sharedComponents/TextM";
 import VectorCardRightBottom from "../vector/VectorCardRightBottom";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   text: string;
 

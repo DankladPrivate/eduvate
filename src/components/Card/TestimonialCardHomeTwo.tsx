@@ -3,7 +3,7 @@ import Image, { StaticImageData } from "next/image";
 import BorderHorizontal from "../customBorder/BorderHorizontal";
 import VectorHomeTwoTestimonialRightTop from "../vector/VectorHomeTwoTestimonialRightTop";
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   quat: string;
   name: string;
   title: string;

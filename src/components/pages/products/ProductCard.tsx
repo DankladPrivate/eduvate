@@ -12,7 +12,7 @@ import { toast } from "react-toastify";
 
 type Props = {
   id: number;
-  image: StaticImageData;
+  image: StaticImageData | string;
   productName: string;
   productPrice: number;
   productRating: number;

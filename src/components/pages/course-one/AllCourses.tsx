@@ -3,7 +3,7 @@ import ButtonPagination from "@/components/button/ButtonPagination";
 import { StaticImageData } from "next/image";
 import { v4 as uuidv4 } from "uuid";
 type Course = {
-  cardImage: StaticImageData;
+  cardImage: StaticImageData | string;
   courseType: string;
   courseTitle: string;
   totalLessons: number;

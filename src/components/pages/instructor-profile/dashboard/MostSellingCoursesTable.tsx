@@ -7,7 +7,7 @@ const MostSellingCoursesTable = ({
 }: {
   tableData: {
     id: string;
-    image: StaticImageData;
+    image: StaticImageData | string;
     title: string;
     courseInstructor: string;
     selling: number;

@@ -4,7 +4,7 @@ import StudentListTableRow from "./StudentListTableRow";
 
 type Props = {
   id: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
   studentName: string;
   location: string;
   courses: string;

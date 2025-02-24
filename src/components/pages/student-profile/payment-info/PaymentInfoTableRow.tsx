@@ -4,13 +4,13 @@ import { IconDownload } from "@tabler/icons-react";
 import Image, { StaticImageData } from "next/image";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   startDate: string;
   status: string;
   cardNumber: string;
   courseInstructor: string;
-  paymentLogo: StaticImageData;
+  paymentLogo: StaticImageData | string;
   total: number;
   index: number;
 };

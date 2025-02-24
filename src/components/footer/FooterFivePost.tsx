@@ -3,7 +3,7 @@ import H5 from "../sharedComponents/H5";
 import TextM from "../sharedComponents/TextM";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   date: string;
 };

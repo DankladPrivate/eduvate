@@ -2,7 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import VectorAboutUsInstructorTopRight from "../vector/VectorAboutUsInstructorTopRight";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   name: string;
   title: string;
 };

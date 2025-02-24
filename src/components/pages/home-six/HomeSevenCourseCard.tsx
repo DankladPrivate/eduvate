@@ -13,7 +13,7 @@ import Link from "next/link";
 
 type Props = {
   id: string;
-  cardImage: StaticImageData;
+  cardImage: StaticImageData | string;
   courseType: string;
   courseTitle: string;
   totalLessons: number;

@@ -2,7 +2,7 @@ import { IconStarFilled, IconStarHalfFilled } from "@tabler/icons-react";
 import Image, { StaticImageData } from "next/image";
 import BorderHorizontal from "../customBorder/BorderHorizontal";
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   quat: string;
   name: string;
   title: string;

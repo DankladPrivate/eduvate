@@ -4,13 +4,13 @@ import PaymentInfoTableRow from "./PaymentInfoTableRow";
 
 type Props = {
   id: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   startDate: string;
   cardNumber: string;
   status: string;
   total: number;
-  paymentLogo: StaticImageData;
+  paymentLogo: StaticImageData | string;
   courseInstructor: string;
 }[];
 

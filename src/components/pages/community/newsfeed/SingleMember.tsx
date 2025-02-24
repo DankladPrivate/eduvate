@@ -4,7 +4,7 @@ import Image, { StaticImageData } from "next/image";
 import FriendButton from "./FriendButton";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   name: string;
   location: string;
   time: string;

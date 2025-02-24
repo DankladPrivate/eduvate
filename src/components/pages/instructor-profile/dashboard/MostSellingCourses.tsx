@@ -11,7 +11,7 @@ import MostSellingCoursesTable from "./MostSellingCoursesTable";
 
 type Props = {
   id: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   courseInstructor: string;
   selling: number;

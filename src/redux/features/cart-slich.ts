@@ -5,7 +5,7 @@ import { StaticImageData } from "next/image";
 
 type cartItem = {
   id: number;
-  image: StaticImageData;
+  image: StaticImageData | string;
   productName: string;
   quantity: number;
   productRating: number;

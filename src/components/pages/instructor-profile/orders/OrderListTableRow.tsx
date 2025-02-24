@@ -3,7 +3,7 @@ import Image, { StaticImageData } from "next/image";
 import TableModal from "../../student-profile/dashboard/TableModal";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   coursesName: string;
   orderId: string;
   orderDate: string;

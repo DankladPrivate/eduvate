@@ -4,7 +4,7 @@ import VectorRattingRightBottom from "../vector/VectorRattingRightBottom";
 
 type Props = {
   cardText: string;
-  customerImage: StaticImageData;
+  customerImage: StaticImageData | string;
   customerName: string;
   customerTitle: string;
 };

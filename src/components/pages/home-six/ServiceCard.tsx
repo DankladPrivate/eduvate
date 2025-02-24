@@ -4,7 +4,7 @@ import TextM from "@/components/sharedComponents/TextM";
 import Image, { StaticImageData } from "next/image";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   title: string;
   text: string;
 };

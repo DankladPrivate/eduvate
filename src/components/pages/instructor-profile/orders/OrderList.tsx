@@ -12,7 +12,7 @@ import OrderListTable from "./OrderListTable";
 
 type TTable = {
   id: string;
-  image: StaticImageData;
+  image: StaticImageData | string;
   coursesName: string;
   orderId: string;
   orderDate: string;

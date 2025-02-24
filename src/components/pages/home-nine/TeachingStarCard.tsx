@@ -11,7 +11,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
   name: string;
   title: string;
 };

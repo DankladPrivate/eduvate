@@ -2,7 +2,7 @@ import { IconMicrophone, IconPhone, IconVideoPlus } from "@tabler/icons-react";
 import Image, { StaticImageData } from "next/image";
 
 type Props = {
-  image: StaticImageData;
+  image: StaticImageData | string;
 };
 
 const BannerTwoImage = ({ image }: Props) => {
