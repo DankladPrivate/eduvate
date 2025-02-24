@@ -18,9 +18,9 @@ import Fade from "@/motionEffect/Fade";
 const Home = () => {
   return (
     <>
-      {/* <NavbarOne /> */}
+      <NavbarOne />
       {/* <NavbarTwo /> */}
-      {/* <NavbarFour /> */}
+      {/* <NavbarEight /> */}
       <Banner />
       <Fade>
         <Counter />

@@ -1,5 +1,4 @@
 "use client";
-import logo from "@/../public/images/homeOne/Logo.png";
 import { RootState } from "@/redux/store";
 import {
   IconArrowsExchange,
@@ -85,7 +84,7 @@ const NavbarSeven = () => {
             <div className="flex grow items-center justify-between gap-4 xxl:gap-60px">
               <Link href="/" className="shrink-0">
                 <Image
-                  src={logo}
+                  src={"/images/homeOne/Logo.png"}
                   width={184}
                   height={38}
                   alt="Home page one logo"

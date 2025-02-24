@@ -1,5 +1,4 @@
 "use client";
-import logo from "@/../public/images/homeOne/Logo.png";
 import {
   IconArrowsExchange,
   IconChevronDown,
@@ -91,7 +90,7 @@ const NavbarEight = () => {
                   <div className="gap-40px flex items-center">
                     <Link href="/home-four">
                       <Image
-                        src={logo}
+                        src={"/images/homeOne/Logo.png"}
                         width={184}
                         height={38}
                         alt="Home page one logo"
@@ -278,7 +277,7 @@ const NavbarEight = () => {
 
                 <div className="gap-40px flex items-center">
                   <Image
-                    src={logo}
+                    src={"/images/homeOne/Logo.png"}
                     width={184}
                     height={38}
                     alt="Home page one logo"
