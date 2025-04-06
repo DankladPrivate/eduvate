@@ -1,36 +1,42 @@
-import FooterHomeOne from "@/components/footer/FooterHomeOne";
-import NavbarEight from "@/components/navbar/NavbarEight";
-import NavbarFive from "@/components/navbar/NavbarFive";
+import FooterHomeThree from "@/components/footer/FooterHomeThree";
 import NavbarFour from "@/components/navbar/NavbarFour";
-import NavbarOne from "@/components/navbar/NavbarOne";
-import NavbarSeven from "@/components/navbar/NavbarSeven";
-import NavbarSix from "@/components/navbar/NavbarSix";
-import NavbarTwo from "@/components/navbar/NavbarTwo";
-import Banner from "@/components/pages/home-one/Banner";
-import Counter from "@/components/pages/home-one/Counter";
-import Courses from "@/components/pages/home-one/Courses";
-import CustomersSay from "@/components/pages/home-one/CustomersSay";
-import Instructor from "@/components/pages/home-one/Instructor";
-import NewsLetter from "@/components/pages/home-one/NewsLetter";
-import WhyChooseUs from "@/components/pages/home-one/WhyChooseUs";
+import BrandSlider from "@/components/pages/home-eight/BrandSlider";
+import UniversityCourses from "@/components/pages/home-eight/UniversityCourses";
+import HomeFourAboutUs from "@/components/pages/home-four/HomeFourAboutUs";
+import HomeFourTestimonial from "@/components/pages/home-four/HomeFourTestimonial";
+import BannerNine from "@/components/pages/home-nine/BannerNine";
+import TeachingStars from "@/components/pages/home-nine/TeachingStars";
+import HomeSixEvent from "@/components/pages/home-six/HomeSixEvent";
+import Certificate from "@/components/pages/home-two/Cartificate";
+import SignInForm from "@/components/pages/signin/SignInForm";
 import Fade from "@/motionEffect/Fade";
 
 const Home = () => {
   return (
     <>
-      <NavbarOne />
-      {/* <NavbarTwo /> */}
-      {/* <NavbarEight /> */}
-      <Banner />
-      <Fade>
+      <NavbarFour />
+      <BannerNine />
+      {/* <AnimateScrollSlider /> */}
+       <BrandSlider />
+
+      {/* <Fade>
         <Counter />
-      </Fade>
-      <Courses />
-      <Instructor />
+      </Fade> */}
+      <UniversityCourses />
+      <HomeSixEvent />
+      <HomeFourAboutUs />
+      <TeachingStars />
+      <Certificate />
+      <HomeFourTestimonial />
+      {/* <SignInForm /> */}
+      {/* <FooterHomeOne /> */}
+      <FooterHomeThree />
+      {/* <BrandSlider /> */}
+      {/* <Instructor />
       <WhyChooseUs />
       <CustomersSay />
       <NewsLetter />
-      <FooterHomeOne />
+      <FooterHomeOne /> */}
     </>
   );
 };

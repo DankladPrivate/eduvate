@@ -81,17 +81,16 @@ const HomeFourAboutUs = () => {
           </FadeLeft>
           <FadeRight>
             <D4 className="pt-4">
-              The Place Where You Can{" "}
+            Where Education Meets{" "}
               <span className="border-b-2 border-secondaryColorTwo text-secondaryColorTwo">
-                Achieve
+              Innovation
               </span>
             </D4>
           </FadeRight>
           <div className="gap-40px flex flex-col  pt-6">
             <Fade>
               <TextL>
-                Our story is a journey of passion, commitment, and dedication to
-                empowering learners like you.
+              At Eduvate, we believe that learning tech should be like building in the real world—messy, exciting, and wildly rewarding. That’s why our courses are built by people who’ve been there, coded that, and want to pass the torch forward.
               </TextL>
             </Fade>
             <div className="gap-32px flex flex-col">
@@ -108,9 +107,7 @@ const HomeFourAboutUs = () => {
                   <div className="flex flex-col gap-3">
                     <H4>Our Mission</H4>
                     <TextM>
-                      Discover how Eduvate collaboratively crafts learning
-                      experiences that go beyond the ordinary, shaping your
-                      educational journey uniquely.
+                    We’re on a mission to transform passive learners into skilled creators. Eduvate delivers hands-on tech training, crafted by industry pros and powered by practical experience—because the best way to learn is by doing.
                     </TextM>
                   </div>
                 </div>{" "}
@@ -128,9 +125,7 @@ const HomeFourAboutUs = () => {
                   <div className="flex flex-col gap-3">
                     <H4>Our Vision</H4>
                     <TextM>
-                      Eduvate is dedicated to your success—explore our
-                      commitment to providing an educational experience that
-                      goes above and beyond.
+                    To ignite a movement where education evolves beyond books and blackboards—shaping doers, builders, and thinkers through learning that’s real, relevant, and ready for the future.
                     </TextM>
                   </div>
                 </div>

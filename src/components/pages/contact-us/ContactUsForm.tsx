@@ -52,7 +52,7 @@ const ContactUsForm = () => {
               <div className="rounded-full border border-neutral-40 bg-white p-6">
                 <IconPhone size={36} />
               </div>
-              <div>
+              {/* <div>
                 <h5 className="h5 font-semibold">Call Now</h5>
                 <Link href="tel:+3567897483" className="block">
                   (303) 555-0105
@@ -60,7 +60,7 @@ const ContactUsForm = () => {
                 <Link href="tel:+3567897483" className="block">
                   (219) 555-0144
                 </Link>
-              </div>
+              </div> */}
             </div>{" "}
             <div className="gap-32px flex items-center rounded-16px border-neutral-40 bg-neutral-20 p-6">
               <div className="rounded-full border border-neutral-40 bg-white p-6">
@@ -68,11 +68,11 @@ const ContactUsForm = () => {
               </div>
               <div>
                 <h5 className="h5 font-semibold">Email Address</h5>
-                <Link href="mailto:info@gmail.com" className="block">
-                  info@gmail.com
+                <Link href="mailto:info.eduvateacademy@gmail.com" className="block">
+                  info.eduvateacademy@gmail.com
                 </Link>
-                <Link href="mailto:info@gmail.com" className="block">
-                  example@gmail.com
+                <Link href="mailto:info.eduvateacademy@gmail.com" className="block">
+                  
                 </Link>
               </div>
             </div>{" "}

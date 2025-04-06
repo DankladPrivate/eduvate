@@ -90,7 +90,7 @@ const NavbarOne = () => {
                 <ButtonOutline
                   buttonText="Sing In"
                   button={true}
-                  link="/signin"
+                  link="/register"
                 />
 
                 <ButtonPrimary

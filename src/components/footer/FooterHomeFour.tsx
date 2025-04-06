@@ -89,18 +89,18 @@ const FooterHomeFour = () => {
               </Link>
             </div>
             <div className="maxsm:items-center flex justify-between gap-6 max-sm:flex-col">
-              <div className="flex flex-col gap-4">
+              {/* <div className="flex flex-col gap-4">
                 <TextS className="text-white">Toll Free Customer Care</TextS>
                 <TextXL className="!font-semibold">
                   {" "}
                   <Link href="tel:+3567897483">(303) 555-0105</Link>
                 </TextXL>
-              </div>
+              </div> */}
               <div className="flex flex-col gap-4">
                 <TextS className="text-white">Need Live Support?</TextS>
                 <TextXL className="!font-semibold">
                   {" "}
-                  <Link href="mailto:info@gmail.com">info@gmail.com</Link>
+                  <Link href="mailto:info.eduvateacademy@gmail.com">info.eduvateacademy@gmail.com</Link>
                 </TextXL>
               </div>
             </div>

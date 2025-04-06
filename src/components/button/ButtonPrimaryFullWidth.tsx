@@ -14,9 +14,9 @@ const ButtonPrimaryFullWidth = ({
     <div>
       <Link
         href={`${link}`}
-        className="group/button theme-transition-3 flex w-full items-center justify-center gap-2 rounded-32px bg-primaryColor px-5 py-3 text-base font-semibold text-neutral-700 shadow-five hover:bg-bgColorOne hover:text-white hover:shadow-five-theme lg:px-8 lg:py-4 "
+        className="group/button theme-transition-3 flex w-full items-center justify-center gap-2 rounded-32px bg-primaryColor px-5 py-3 text-base font-semibold text-neutral-700 shadow-five hover:bg-bgColorOne hover:text-white hover:shadow-five-theme lg:px-16 lg:py-4 "
       >
-        <span>{buttonText}</span>{" "}
+        <span className="text-lghttp://localhost:3000/signup">{buttonText}</span>{" "}
         {button && (
           <IconArrowUpRight
             size={24}

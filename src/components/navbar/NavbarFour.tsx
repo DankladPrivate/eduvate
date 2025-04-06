@@ -20,9 +20,11 @@ import { navbarData } from "../../../public/data/navbarData";
 import HeaderIcon from "../HeaderIcon";
 import DropdownNavbar from "../dropdown/DropdownNavbar";
 import IconDotVertical from "../icons/IconDotVertical";
+import ButtonBlack from "../button/ButtonBlack";
+import ButtonPrimaryFullWidth from "../button/ButtonPrimaryFullWidth";
 
 const category = [
-  { label: "Category", link: "/courses/courses-two" },
+  { label: "Courses", link: "/courses/courses-two" },
   { label: "Academic", link: "/courses/courses-two" },
   { label: "Language", link: "/courses/courses-two" },
   { label: "Programming", link: "/courses/courses-two" },
@@ -69,6 +71,10 @@ const NavbarFour = () => {
     }
   };
   const pathName = usePathname();
+
+
+  const RegisterNowButton = <ButtonPrimaryFullWidth link="/register" buttonText="Register Now" button={false} />;
+
 
   return (
     <header className="sticky top-0 z-[200] border-b border-neutral-30">
@@ -156,7 +162,7 @@ const NavbarFour = () => {
                             </li>
                           );
                         })}
-                      <li
+                      {/* <li
                         onMouseEnter={(e) => {
                           setThreeDotsMenu(true);
                         }}
@@ -164,7 +170,7 @@ const NavbarFour = () => {
                         className="cursor-pointer py-8"
                       >
                         <IconDots />
-                      </li>
+                      </li> */}
                       <li>
                         <ul
                           onMouseLeave={() => setThreeDotsMenu(false)}
@@ -238,7 +244,7 @@ const NavbarFour = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-4 py-2 4xl:gap-6">
-                  <div
+                  {/* <div
                     className={`theme-transition-4 flex items-center justify-between rounded-60px border-neutral-40 md:bg-white ${
                       expanseSearch
                         ? "py-2 pe-2 ps-5  max-md:w-[100px] md:w-[300px] md:border lg:ps-8 xl:w-[350px] xxl:w-[350px] 4xl:w-[400px]"
@@ -257,9 +263,9 @@ const NavbarFour = () => {
                       icon={<IconSearch size={20} />}
                       bg="bg-neutral-20 border border-neutral-30"
                     />
-                  </div>
+                  </div> */}
 
-                  <HeaderIcon
+                  {/* <HeaderIcon
                     icon={<IconWorld size={20} />}
                     bg="bg-neutral-20 border border-neutral-30"
                   />
@@ -275,13 +281,16 @@ const NavbarFour = () => {
                   <HeaderIcon
                     icon={<IconUserCircle size={20} />}
                     bg="bg-neutral-20 border border-neutral-30"
-                  />
+                  /> */}
+
+                {RegisterNowButton}
+
                 </div>
               </div>
               {/* desktop menu end */}
               {/* mobile menu start */}
               <div className="flex h-full items-center justify-between xxl:hidden">
-                <div
+                {/* <div
                   onClick={() => setMenuOpen(!menuOpen)}
                   className={`${windowHeight > 150 ? "text-bgColorTwo" : ""}`}
                 >
@@ -302,7 +311,7 @@ const NavbarFour = () => {
                       }`}
                     />
                   )}
-                </div>
+                </div> */}
 
                 <div className="gap-40px flex items-center">
                   <Image
@@ -318,7 +327,9 @@ const NavbarFour = () => {
                   </div>
                 </div>
 
-                <div
+
+               {RegisterNowButton}
+                {/* <div
                   className={`visible absolute left-0 top-[67px] z-[2000] h-screen min-h-full w-full overflow-hidden overflow-y-scroll pb-[106px] transition-all duration-1000 lg:top-[86px] ${
                     menuOpen
                       ? " translate-x-0 overflow-auto bg-bgColorTwo opacity-100"
@@ -388,9 +399,8 @@ const NavbarFour = () => {
                       })}
                     </ul>
                   </div>
-                </div>
-                <div className="items-center gap-3 max-lg:flex sm:gap-6">
-                  {/* <SearchBarMobile /> */}
+                </div> */}
+                {/* <div className="items-center gap-3 max-lg:flex sm:gap-6">
                   <div className="relative flex items-center gap-6">
                     <div
                       className={`theme-transition-4 hidden items-center justify-between rounded-60px border-neutral-40 md:bg-white lg:flex ${
@@ -445,7 +455,7 @@ const NavbarFour = () => {
                       />{" "}
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               {/* mobile menu end */}
             </div>

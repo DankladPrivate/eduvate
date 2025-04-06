@@ -20,18 +20,18 @@ const ContactUsFooterHomeFive = () => {
         className={`} mt-8 flex flex-col gap-6
         text-white`}
       >
-        <div className="group flex items-center gap-x-5">
+        {/* <div className="group flex items-center gap-x-5">
           <ContactIconHomeFooterFive key={uuidv4()} icon={<IconPhone />} />{" "}
           <div className=" flex flex-col gap-y-1">
             <Link href="tel:+3567897483">(303) 555-0105</Link>
             <Link href="tel:+3567897483">(219) 555-0144</Link>
           </div>
-        </div>
+        </div> */}
         <div className="group flex items-center gap-x-5">
           <ContactIconHomeFooterFive key={uuidv4()} icon={<IconMailOpened />} />{" "}
           <p className="flex flex-col gap-y-1">
-            <Link href="mailto:info@gmail.com">info@gmail.com</Link>
-            <Link href="mailto:info@gmail.com">example@gmail.com</Link>
+            <Link href="mailto:info.eduvateacademy@gmail.com">info.eduvateacademy@gmail.com</Link>
+            <Link href="mailto:info.eduvateacademy@gmail.com"></Link>
           </p>
         </div>
         <div className="group flex items-center gap-x-5">
@@ -40,8 +40,8 @@ const ContactUsFooterHomeFive = () => {
             icon={<IconMapPinCheck />}
           />{" "}
           <p className="flex flex-col gap-y-1">
-            <span>3605 Parker Rd.</span>
-            <span>3890 Poplar Dr.</span>
+          <span>HSR Layout, Bangalore</span>
+          {/* <span>3890 Poplar Dr.</span> */}
           </p>
         </div>
       </div>

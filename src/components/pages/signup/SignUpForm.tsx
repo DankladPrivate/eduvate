@@ -5,10 +5,23 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import ButtonPrimarySmall from "../student-profile/edit-profile/ButtonPrimarySmall";
+import DropdownFullWidth from "@/components/dropdown/DropdownFullWidth";
 
 const SignUpForm = () => {
   const [passwordShow, setPasswordShow] = useState(false);
   const [conformPasswordShow, setConformPasswordShow] = useState(false);
+
+
+    const category = [
+      { label: "Select status" },
+      { label: "Student" },
+      { label: "Gradute" },
+      { label: "Working professional" },
+      { label: "Active job seeker" },
+    ];
+  
+
+
   return (
     <div className="section-gap-top section-gap-bottom">
       <div className="container grid items-center justify-between gap-20 max-xxl:grid-flow-row max-xxl:justify-center xxl:grid-cols-2 xxl:gap-40">
@@ -32,7 +45,7 @@ const SignUpForm = () => {
                       className="w-full rounded-32px border border-neutral-30 bg-white px-6 py-3 focus:outline-none"
                       id="fName"
                       type="text"
-                      placeholder="Jone"
+                      placeholder="John"
                     />
                   </div>
                   <div className="flex flex-col gap-4">
@@ -46,9 +59,23 @@ const SignUpForm = () => {
                       className="w-full rounded-32px border border-neutral-30 bg-white px-6 py-3 focus:outline-none"
                       id="lName"
                       type="text"
-                      placeholder="Fisher"
+                      placeholder="Doe"
                     />
                   </div>
+                </div>
+                <div className="flex flex-col gap-4">
+                  <label
+                    className="lText block font-medium text-neutral-500"
+                    htmlFor="email"
+                  >
+                    Enter Mobile Number
+                  </label>
+                  <input
+                    className="w-full rounded-32px border border-neutral-30 bg-white px-6 py-3 focus:outline-none"
+                    id="email"
+                    type="text"
+                    placeholder="Your mobile number here"
+                  />
                 </div>
                 <div className="flex flex-col gap-4">
                   <label
@@ -64,7 +91,9 @@ const SignUpForm = () => {
                     placeholder="Your email ID here"
                   />
                 </div>
-                <div className="grid items-center gap-6 sm:grid-cols-2">
+
+                {/* Password section */}
+                {/* <div className="grid items-center gap-6 sm:grid-cols-2">
                   <div className="flex flex-col gap-4">
                     <label
                       className="lText block font-medium text-neutral-500"
@@ -113,21 +142,24 @@ const SignUpForm = () => {
                       </span>
                     </div>
                   </div>
-                </div>
+                </div> */}
+                {/* Password section ends */}
+
+
+
                 <div className="flex flex-col gap-4">
                   <label
                     className="lText block font-medium text-neutral-500"
                     htmlFor="referralCode"
                   >
-                    Someone invited you over?
+                    Select your current phase
                   </label>
-                  <input
-                    className="w-full rounded-32px border border-neutral-30 bg-white px-6 py-3 focus:outline-none"
-                    id="referralCode"
-                    type="text"
-                    placeholder="Enter the referral code"
-                  />
+                  <div className=" rounded-32px border border-neutral-40 bg-white px-6 py-3">
+                  <DropdownFullWidth options={category} />
+                  </div>
                 </div>
+
+           
               </div>
               <p className="padding-t-32 text-mText text-neutral-500">
                 By clicking submit, you agree to
@@ -135,12 +167,12 @@ const SignUpForm = () => {
                   href="/privacy-policy"
                   className="font-semibold text-neutral-700"
                 >
-                  Terms of Use, Privacy Policy, E-sign & Communication
+                  {" "}Terms of Use, Privacy Policy, E-sign & Communication
                   Authorization.
                 </Link>
               </p>
               <div className="padding-t-40">
-                <ButtonPrimarySmall buttonText="Sing Up" />
+                <ButtonPrimarySmall buttonText="Submit" />
               </div>
             </form>
           </div>

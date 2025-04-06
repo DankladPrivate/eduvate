@@ -140,95 +140,95 @@ export const navbarData = [
       },
     ],
   },
-  {
-    id: uuidv4(),
-    menuTitle: "Courses",
-    path: "#",
-    menuItems: [
-      {
-        id: uuidv4(),
-        title: "Courses one",
-        menuItemPath: "/courses/courses-one",
-      },
-      {
-        id: uuidv4(),
-        title: "Courses Two",
-        menuItemPath: "/courses/courses-two",
-      },
-      {
-        id: uuidv4(),
-        title: "Courses Details one",
-        menuItemPath: "/courses/courses-details-one",
-      },
-      {
-        id: uuidv4(),
-        title: "Courses Details Two",
-        menuItemPath: "/courses/courses-details-two",
-      },
-    ],
-  },
+  // {
+  //   id: uuidv4(),
+  //   menuTitle: "Courses",
+  //   path: "#",
+  //   menuItems: [
+  //     {
+  //       id: uuidv4(),
+  //       title: "Courses one",
+  //       menuItemPath: "/courses/courses-one",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       title: "Courses Two",
+  //       menuItemPath: "/courses/courses-two",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       title: "Courses Details one",
+  //       menuItemPath: "/courses/courses-details-one",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       title: "Courses Details Two",
+  //       menuItemPath: "/courses/courses-details-two",
+  //     },
+  //   ],
+  // },
   {
     id: uuidv4(),
     menuTitle: "About",
     path: "/about-us",
   },
+  // {
+  //   id: uuidv4(),
+  //   menuTitle: "Shop",
+  //   path: "#",
+  //   menuItems: [
+  //     {
+  //       id: uuidv4(),
+  //       title: "Products",
+  //       menuItemPath: "/products",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       title: "Product Details",
+  //       menuItemPath: "/products/details",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       title: "Cart",
+  //       menuItemPath: "/cart",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       title: "Checkout",
+  //       menuItemPath: "/checkout",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: uuidv4(),
+  //   menuTitle: "Blogs",
+  //   path: "#",
+  //   menuItems: [
+  //     {
+  //       id: uuidv4(),
+  //       title: "Blog Classic",
+  //       menuItemPath: "/blog/blog-classic",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       title: "Blog Grid",
+  //       menuItemPath: "/blog/blog-grid",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       title: "Blog List",
+  //       menuItemPath: "/blog/blog-list",
+  //     },
+  //     {
+  //       id: uuidv4(),
+  //       title: "Blog Details",
+  //       menuItemPath: "/blog/blog-details",
+  //     },
+  //   ],
+  // },
   {
     id: uuidv4(),
-    menuTitle: "Shop",
-    path: "#",
-    menuItems: [
-      {
-        id: uuidv4(),
-        title: "Products",
-        menuItemPath: "/products",
-      },
-      {
-        id: uuidv4(),
-        title: "Product Details",
-        menuItemPath: "/products/details",
-      },
-      {
-        id: uuidv4(),
-        title: "Cart",
-        menuItemPath: "/cart",
-      },
-      {
-        id: uuidv4(),
-        title: "Checkout",
-        menuItemPath: "/checkout",
-      },
-    ],
-  },
-  {
-    id: uuidv4(),
-    menuTitle: "Blogs",
-    path: "#",
-    menuItems: [
-      {
-        id: uuidv4(),
-        title: "Blog Classic",
-        menuItemPath: "/blog/blog-classic",
-      },
-      {
-        id: uuidv4(),
-        title: "Blog Grid",
-        menuItemPath: "/blog/blog-grid",
-      },
-      {
-        id: uuidv4(),
-        title: "Blog List",
-        menuItemPath: "/blog/blog-list",
-      },
-      {
-        id: uuidv4(),
-        title: "Blog Details",
-        menuItemPath: "/blog/blog-details",
-      },
-    ],
-  },
-  {
-    id: uuidv4(),
-    menuTitle: "Contact Us",
+    menuTitle: "Contact",
     path: "/contact-us",
   },
 ];

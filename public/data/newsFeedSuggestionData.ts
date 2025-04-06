@@ -9,24 +9,24 @@ export const newsFeedSuggestionData = [
     id: uuidv4(),
     image: image4,
     name: "Guy Hawkins",
-    email: "info@gmail.com",
+    email: "info.eduvateacademy@gmail.com",
   },
   {
     id: uuidv4(),
     image: image2,
     name: "Cody Fisher",
-    email: "info@gmail.com",
+    email: "info.eduvateacademy@gmail.com",
   },
   {
     id: uuidv4(),
     image: image1,
     name: "Albert Flores",
-    email: "info@gmail.com",
+    email: "info.eduvateacademy@gmail.com",
   },
   {
     id: uuidv4(),
     image: image3,
     name: "Dianne Russell",
-    email: "info@gmail.com",
+    email: "info.eduvateacademy@gmail.com",
   },
 ];

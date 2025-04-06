@@ -1,4 +1,6 @@
 import FooterHomeOne from "@/components/footer/FooterHomeOne";
+import FooterHomeThree from "@/components/footer/FooterHomeThree";
+import NavbarFour from "@/components/navbar/NavbarFour";
 import NavbarOne from "@/components/navbar/NavbarOne";
 import type { Metadata } from "next";
 
@@ -14,9 +16,9 @@ export default function InnerLayout({
 }) {
   return (
     <>
-      <NavbarOne />
+      <NavbarFour />
       {children}
-      <FooterHomeOne />
+      <FooterHomeThree />
     </>
   );
 }

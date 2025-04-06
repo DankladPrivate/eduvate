@@ -20,7 +20,7 @@ const HomeEight = () => {
   return (
     <>
       <NavbarEight />
-      <HomeEightBanner />
+      {/* <HomeEightBanner /> */}
       <HomeEightCoursesCategories />
       <UniversityCourses />
       <HomeEightAbout />

@@ -20,13 +20,13 @@ const FooterHomeThree = () => {
     <footer className="padding-b-40 relative overflow-hidden before:absolute before:right-0 before:h-full before:bg-bgColorOne max-xxl:bg-bgColorOne min-[1390px]:before:w-[calc(100%-370px)] min-[1430px]:before:w-[calc(100%-397px)] min-[1600px]:before:w-[calc(100%-450px)] min-[1700px]:before:w-[calc(100%-530px)] 4xl:before:w-[calc(100%-580px)] min-[1850px]:before:w-[calc(100%-600px)]">
       <div className="container relative z-20 grid-cols-12 gap-6 xl:grid">
         <div className="section-gap-top col-start-1 col-end-4  flex flex-col justify-between gap-6">
-          <div className="hidden xxl:block">
+            <div className="hidden xxl:block -ml-12">
             <ContactUs bg="white" title="Contact" fontSize="h4" />
-          </div>
+            </div>
           <div className="block xxl:hidden">
             <ContactUs bg="dark" />
           </div>
-          <Link href="/">
+          <Link href="/" className="-ml-12">
             <Image
               src={logo}
               width={184}
@@ -34,13 +34,13 @@ const FooterHomeThree = () => {
               alt="logo"
               className="hidden xxl:block"
             />
-            <Image
+            {/* <Image
               src={logoFooter}
               width={184}
               height={38}
               alt="logo"
               className="xxl:hidden"
-            />
+            /> */}
           </Link>
         </div>
         <div className="section-gap-top col-start-4 col-end-13 bg-bgColorOne text-white xl:padding-s-80">
